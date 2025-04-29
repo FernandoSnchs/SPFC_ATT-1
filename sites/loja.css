@@ -1,0 +1,241 @@
+@font-face{
+    font-family: PtSans; 
+    src: url(../fontes/PTS75F.ttf);
+}
+
+@font-face {
+    font-family: horizon;
+    src: url(../fontes/horizon-new.otf);
+}
+
+@font-face {
+    font-family: abnormal;
+    src: url(../fontes/abnormal-bold.otf);
+}
+
+/*margin_0_body*/
+body{
+    margin: 0;
+}
+
+/* start_litras*/
+.listra_red{
+    background-color: #CB0017;
+    height: 4px;   
+}
+
+.listra_white{
+    background-color: white;
+    height: 4px;
+}
+
+.listra_white_2{
+    background-color: white;
+    width: 1288px;
+    height: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.listra_red_2{
+    background-color: #CB0017;
+    width: 1300px;
+    height: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.listra_black{
+    background-color: black;
+    width: auto;
+    height:4px;
+}
+
+.listra_black_2{
+    background-color: #000000;
+    width: 1300px;
+    height: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*finish_listras*/
+
+
+/*start_topbar*/
+.topbar{
+    display: flex;
+    height: 55px;
+    background-color: #000000;
+}
+.topbar ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    padding-left: 150px;
+    margin: 0;
+    padding-top: 19px;
+    font-family: abnormal;
+}
+.topbar a{
+    text-decoration: none;
+    color: #FFFF;
+
+}
+.topbar a:hover{
+    color: #CB0017;
+}
+.topbar img{
+    width: 60px;
+    height: 60px;
+    padding-left: 17px;
+    padding-top: 15px;
+}
+/*end*/
+
+
+
+
+
+/*start loja*/
+
+.background_Shop{
+    width: auto;
+    height: 950px;
+    background-image: url(../img\ loja/5475_Full_Persona_SPFC.png);
+    padding-top: 0px;
+    margin: 0px;
+    display: flex;
+}
+/*banner*/
+.banner_1 {
+    width: auto;
+    height: auto;
+ 
+ }
+ .banner_1 img{
+     margin: 0;
+    
+     width: 1300px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ 
+ /*start shop - Container*/
+ .container_shop{
+     width: 1200px;
+     height: ;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 26%;
+     background-color: white;
+ 
+ 
+ }
+ 
+ /*Box - TopBar*/
+ .box_topbar h1{
+     font-family: PtSans;
+     border-bottom: 1px solid black;
+     
+  
+ }    
+ 
+ /*Box - Shop*/
+ .box_shop{
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+     width: 600px;
+ 
+     column-gap: 90px;
+ }
+ 
+ 
+ .box_shop_2{
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+     width: 600px;
+     column-gap: 90px;
+     padding-top: 30px;
+ }
+ 
+ 
+ .box_shop img{
+     width: 300px;
+ }
+ 
+ .box_shop_2 img{
+     width: 300px;
+ }
+     /*start camisa*/
+     .camisas img{
+         width: 300px;
+         margin: 20px;
+     }
+ 
+     .camisa1 img{
+         width: 200px;
+         
+     }
+     .camisa2 img{
+         width: 200px;
+     }
+    /*Footer*/
+    /* Estilos básicos para o footer */
+    .site-footer {
+        background-color: #CB0019;
+        color: #fff;
+        padding: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .footer-links a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+    .footer-content img{
+        width: 50px;
+    }

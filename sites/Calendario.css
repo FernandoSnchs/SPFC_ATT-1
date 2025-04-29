@@ -1,0 +1,141 @@
+@font-face {
+    font-family: abnormal;
+    src: url(../fontes/abnormal-bold.otf);
+}
+@font-face {
+    font-family: horizon;
+    src: url(../fontes/horizon-new.otf);
+}
+@font-face{
+    font-family: PtSans; 
+    src: url(../fontes/PTS75F.ttf);
+}
+
+
+/*margin_0_body*/
+body{
+    margin: 0px;
+}
+
+/* start_litras*/
+.listra_red{
+    background-color: #CB0017;
+    height: 4px;   
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.listra_white{
+    background-color: white;
+    height: 7px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.listra_black{
+    background-color: black;
+    width: auto;
+    height:4px;
+   
+}
+
+
+/*finish_listras*/
+header{
+    position: fixed;
+}
+
+/*start_topbar*/
+.topbar{
+    display: flex;
+    height: 55px;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    z-index: auto;
+    
+    
+}
+.topbar ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    padding-left: 150px;
+    margin: 0;
+    padding-top: 19px;
+    font-family: abnormal;
+}
+.topbar a{
+    text-decoration: none;
+    color: #FFFF;
+
+}
+.topbar img{
+    width: 60px;
+    height: 60px;
+    padding-left: 17px;
+    padding-top: 15px;
+    transition: transform .2s;
+    
+ 
+    
+}
+
+.topbar img:h{
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+}
+.topbar a:hover{
+    color: #CB0017;
+}
+
+/*SAIR*/
+.sair ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    padding-left: 150px;
+    margin: 0;
+    padding-top: 19px;
+    font-family: abnormal;
+    text-align: right;
+}
+.sair{
+    margin-left: auto;
+    margin-right: 150px;
+}
+/*end*/
+    /*Footer*/
+    /* Estilos básicos para o footer */
+    .site-footer {
+        background-color: #CB0019;
+        color: #fff;
+        padding: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .footer-links a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+    .footer-content img{
+        width: 50px;
+    }

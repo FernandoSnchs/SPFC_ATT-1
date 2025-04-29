@@ -1,0 +1,131 @@
+@font-face {
+    font-family: abnormal;
+    src: url(../fontes/abnormal-bold.otf);
+}
+@font-face {
+    font-family: horizon;
+    src: url(../fontes/horizon-new.otf);
+}
+@font-face{
+    font-family: PtSans; 
+    src: url(../fontes/PTS75F.ttf);
+}
+
+
+
+
+/* start_litras*/
+.listra_red{
+    background-color: #CB0017;
+    height: 4px;   
+}
+
+.listra_white{
+    background-color: white;
+    height: 4px;
+}
+
+.listra_black{
+    background-color: black;
+    width: auto;
+    height:4px;
+}
+body{
+    margin: 0;
+}
+/*background*/
+.background{
+    background-image: url(../img-access/Backgroun-morumbi.jpg);
+    width: auto;
+    height: 962px; 
+    background-size: cover;
+    
+
+}
+/*content*/
+.content_box{
+    
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.content{
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+.content button{
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 10px;
+    width: 250px;
+    transition: transform 0.2s;
+    font-family: PtSans;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+.content button:hover{
+    transform: scale(1.015);
+    cursor: pointer;
+    
+}
+
+/*Logo*/
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.logo img{
+    width: 100px;
+    padding-top: 20%;
+    padding-bottom: 20px;
+}
+/*Texto*/
+.texto {
+    font-family: horizon;
+    font-size: 30px;
+    width: 90%;
+}
+.texto h1{
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+}
+    /*Footer*/
+    /* Estilos básicos para o footer */
+    .site-footer {
+        background-color: #CB0019;
+        color: #fff;
+        padding: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .footer-links a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+    .footer-content img{
+        width: 50px;
+    }
